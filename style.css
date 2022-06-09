@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  box-shadow: 0;
+  text-decoration: 0;
+}
+
+.rocket {
+  position: relative;
+  background-color: #A5A5A5;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: url('img/sky.jpg');
+}
+
+.img-moon{
+  position: absolute;
+  top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 20px;
+  background-color: #232ed1;
+  color: #050517;
+  border-radius: 15px;
+  margin-bottom: 70px;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-color: #27b2ff;
+  color: #efefec;
+}
+
+.rocket-container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+}
+.rocket-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
+  transition: all 1.3s ease-out;
+}
+
+.rocket-container:hover img {
+  margin-bottom: 200px;
+}
